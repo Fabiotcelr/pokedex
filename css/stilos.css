@@ -1,0 +1,38 @@
+body {
+    background:  url("/assets/img/poke.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+main{
+    padding: 2rem 2rem;
+}
+
+
+.pokemon-todos{
+    display: grid;
+    grid-template-columns: repeat(4, 0fr);
+    grid-gap: 1rem;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.pokemon{
+    border-radius: 1rem;
+    background-color: rgba(255, 255, 255, 0.377);
+    padding-block: 1rem ;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 1rem;
+    border: 1px solid #949d03;
+    width: 15rem;
+}
+
+.pokemon-imagen img{
+    width: 100%;
+    max-width: 6rem;
+  
+}
